@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#container {
+  width: 80%;
+  height: 800px;
+  background-color: white;
+}
+header h1 {
+  padding: 15px;
+  letter-spacing: 4px;
+  color: #768500;
+  text-shadow: -4px -2px 3px white;
+}
+header {
+  height: 100px;
+  background-color: #ac4b16;
+}
+nav {
+  background-color: white;
+  height: 33px;
+  border-bottom: 5px solid lightgrey;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul a {
+  text-decoration: none;
+  color: #ba8559;
+}
+nav li {
+  padding: 5px 20px 5px 20px;
+}
+#backgr {
+  background-image: url(../image/line.png);
+  background-repeat: repeat;
+  background-size: 157px;
+  height: 100px;
+}
+#content {
+  display: flex;
+  margin-top: 30px;
+}
+section {
+  width: 70%;
+  height: 500px;
+}
+aside {
+  width: 30%;
+  height: 500px;
+  border-left: 2px solid #ccc;
+}
+#content-article p {
+  width: 450px;
+  color: #ada575;
+  font-style: italic;
+  font-weight: bold;
+  font-size: larger;
+}
+#content-article h3 {
+  letter-spacing: 5px;
+  font-size: x-large;
+  color: #ada575;
+}
+#content-article {
+  margin: 10px;
+}
+#content-article ul {
+  list-style: none;
+}
+#content-article li {
+  padding: 25px 0px 25px 40px;
+}
+.dec-input {
+  width: 400px;
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  margin: 8px;
+}
+#input-btn {
+  width: 150px;
+  height: 30px;
+  background-color: #98aa0c;
+  color: white;
+  border: none;
+  margin-top: 50px;
+}
+::placeholder {
+  font-size: larger;
+}
+#content-menu {
+  margin: 30px;
+}
+#menu {
+  height: fit-content;
+  padding: 10px;
+  background-color: #ffecd4;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  list-style: square;
+  color: #9a4b1b;
+}
+#menu h3 {
+  letter-spacing: 5px;
+}
+#content-info {
+  padding: 10px;
+}
+#content-info h3 {
+  margin: 10px;
+  color: #9a4b1b;
+  letter-spacing: 5px;
+}
+#content-info img {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+footer {
+  background-image: url(../image/corner1.png), url(../image/corner2.png),
+    url(../image/corner3.png), url(../image/corner4.png), url(../image/footer.png);
+  background-position: top left, bottom left, top right, bottom right,
+    top center;
+  background-size: 40px 25px, 40px 25px, 40px 25px, 40px 25px, 146px 18px;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x;
+  padding: 15px;
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  max-width: 1200px; 
+  margin: 0 auto;
+}
+
+/* Add this style to center the content */
+#content {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  color: black;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+
+.dec-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#input-btn {
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+

@@ -1,0 +1,143 @@
+body {
+    margin: auto;
+    padding: 0;
+}
+
+#container {
+    margin: auto;
+    width: fit-content;
+    background-color: skyblue;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    width: 80%;
+}
+
+header span {
+    width: 20%;
+    height: 100%;
+    font-size: 35px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 0px 0px 10px mediumblue;
+    text-align: right;
+}
+
+header nav ul {
+    padding-left: 40px;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: auto 25px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#content {
+    display: flex;
+    border-bottom: 6px dotted white;
+    border-top: 6px dotted white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#content section {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    color: white;
+    padding-right: 20px;
+}
+
+#content section article {
+    padding-left: 10px;
+}
+
+#content section article h1 {
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+#content section table {
+    width: 70%;
+}
+
+#content section table .a, .b{
+    border-radius: 5px;
+}
+
+#content section table .b{
+    width: 100%;
+}
+
+#content aside {
+    width: 50%;
+}
+
+#content aside img{
+    width: 85%;
+    height: 70%;
+    margin-bottom: 10px;
+}
+
+#content aside div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content aside div h1, #content aside div h3{
+    display: inline-block;
+    width: 60%;
+    margin: 0;
+    color: blue;
+}
+
+#content aside div h1{
+    font-size: 40px;
+    text-shadow: rgb(70, 70, 231) -4px -3px;
+}
+
+#content aside div h3{
+    font-size: 25px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer h3{
+    margin: 3px 0px;
+    color: white;
+}
+
+footer #a1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer #a2{
+    font-weight: normal;
+}
+
+footer #a2 span{
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

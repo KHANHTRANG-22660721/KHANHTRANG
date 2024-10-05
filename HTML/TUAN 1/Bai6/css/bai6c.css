@@ -1,0 +1,19 @@
+form{
+    width: 250px;
+    height: 350px;
+    border: 1px solid blue;
+}
+
+#a, #b, #c, #d, #e{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+#name, #phone, #mail{
+    width: 200px;
+}
+
+#birth{
+    width: 150px;
+}

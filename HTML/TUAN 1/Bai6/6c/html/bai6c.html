@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date</title>
+    <link rel="stylesheet" href="../css/bai6c.css">
+</head>
+<body>
+    <form action="">
+        <div id="a">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div id="b">
+            <label for="phone">Telephone Number:</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+        </div>
+        <div id="c">
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" id="mail" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
+        </div>
+        <div id="d">
+            <label for="color">Favorite Color:</label>
+            <input type="color" name="color" id="color" value="#0000FF">
+        </div>
+        <div id="e">
+            <label for="birth">Date of Birth:</label>
+            <input type="date" name="birth" id="birth" value="2024-01-01">
+        </div>
+        <input style="margin-left: 50px;" type="submit" name="sub" id="sub">
+    </form>
+</body>
+</html>

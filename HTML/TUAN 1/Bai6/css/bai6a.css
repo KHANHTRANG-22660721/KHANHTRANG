@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(117, 197, 240);
+}
+
+form {
+    /* margin-left: 29%;
+    margin-right: -71px; */
+    width: fit-content;
+    margin: auto;
+}
+
+#image,
+h2,
+p {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+#name,
+.addr,
+#cty,
+#ctry,
+.datep {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#name>.first {
+    margin-right: 115px;
+}
+
+#fname {
+    width: 120px;
+}
+
+#name>.last {
+    margin: auto 2px;
+}
+
+#lname {
+    max-width: 110px;
+    flex: 1;
+}
+
+.addr .title {
+    margin-right: 114px;
+}
+
+#addr1,
+#addr2 {
+    width: 210px;
+}
+
+.cityy {
+    margin-right: 159px;
+}
+
+.countryy {
+    margin-right: 134px;
+}
+
+#city,
+#country,
+#date,
+#serial {
+    width: 145px;
+}
+
+#state {
+    margin: auto 3px;
+    width: 40px;
+}
+
+#zip {
+    margin: auto 4px;
+    max-width: 70px;
+    flex: 1;
+}
+
+#prod {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.prodd {
+    margin-right: 136px;
+}
+
+#product {
+    width: 120px;
+}
+
+.datee {
+    margin-right: 86px;
+}
+
+.seriall {
+    margin-right: 136.5px;
+}
+
+#choose {
+    margin-top: -5px;
+}
+
+.usee {
+    display: inline-block;
+    height: 60px;
+    width: 189px;
+}
+
+#use {
+    display: inline;
+}
+
+.syss {
+    display: inline-block;
+    height: 60px;
+    width: 191.5px;
+}
+
+#sys {
+    display: inline;
+}
+
+.comt {
+    margin-top: 15px;
+    display: flex;
+}
+
+.comt label {
+    margin-right: 125px;
+}
+
+#cmt {
+    width: 350px;
+    height: 100px;
+}
+
+#end {
+    margin: 7px;
+    text-align: center;
+}

@@ -1,0 +1,151 @@
+#container{
+    width: fit-content;
+    margin: auto;
+}
+
+#container .header{
+    background-image: url(../image/background.png);
+}
+
+#tittle{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+#tittle img{
+    width: auto;
+    height: 150px;
+}
+
+#tittle div h1, #tittle div h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 10px;
+    letter-spacing: 2px;
+}
+
+#menu{
+    background-color: rgb(172, 170, 170);
+}
+
+#menu ul{
+    display: flex;
+    padding-left: 25px;
+    margin: 0px auto;
+    height: 30px;
+    align-items: center;
+}
+
+#menu ul li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Body */
+#body{
+    display: flex; 
+}
+
+#section{
+    width: 70%;
+    border-right: 1px solid rgb(207, 205, 205);
+}
+
+#section table{
+    border-spacing: 20px 20px;
+}
+
+#section table td{
+    width: 50%;
+    height: 300px;  
+}
+
+#section .td1{
+    border: 1px solid rgb(207, 205, 205);
+    text-align: center;
+}
+
+#section table .td1 img{
+    margin: 0;
+    width: 98%;
+    height: 87%;
+}
+
+#section table .td1 div{
+    display: inline-block;
+    text-align: left;
+    width: 98%;
+    height: 8%;
+    padding-top: 5px;
+    color: gray;
+}
+
+#section .td2{
+    text-align: left;
+    vertical-align: top;
+}
+
+#section .td2 h2, #section .td2 p{
+    color: grey;
+    margin-bottom: 0px;
+}
+
+#section .td2 h3{
+    margin-top: 0px;
+    color: palevioletred;
+}
+
+#aside{
+    width: 30%;
+    margin-top: 25px;
+}
+
+#aside .aside1, #aside .aside2{
+    margin-bottom: 125px;
+    padding-left: 20px;
+}
+
+#aside .aside1, #aside .aside2 h2{
+    color: palevioletred;
+}
+
+#aside .aside1 ul{
+    padding-left: 10px;
+    margin-right: 15px;
+    margin-top: 5px;
+    
+}
+
+#aside .aside1 li{
+    list-style-type: none;
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(207, 205, 205);
+}
+
+
+#aside .aside2 ul{
+    padding: 0;
+}
+
+#aside .aside2 li{
+    list-style-type: none;
+    color: gray;
+}
+
+#footer{
+    display: flex;
+    vertical-align: bottom;
+    height: 30px;
+    background-color: rgb(172, 170, 170);
+    padding-left: 20px;
+    vertical-align: bottom;
+    color: white;
+    align-items: end;
+}

@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(241, 238, 233);
+}
+
+#a{
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: rgb(214, 210, 210);  
+}
+
+#b{
+    display: flex;
+    justify-content: baseline;
+    height: 70px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+
+}
+
+#b .muc{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    width: 150px;
+}
+
+#b .muc:hover{
+    background-color: white;
+    color: black;
+}
+
+#c{
+    display: inline-block;
+
+    margin: 2% 5%;
+    background-color: white;
+    border-radius: 13px/13px;
+    box-shadow: 8px 8px 30px;
+}
+
+#c h2{
+    margin: 15px 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid gray;
+}
+
+#anh{
+    margin-left: 20px;
+    float: left;
+    margin-bottom: 207px;
+}
+
+
+.pp{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#end{
+    margin: 10px 20px;
+}

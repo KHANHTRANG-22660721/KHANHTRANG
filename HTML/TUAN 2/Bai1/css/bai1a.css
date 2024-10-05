@@ -1,0 +1,50 @@
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+#title{
+    text-align: center;
+    font-style: italic;
+    color: brown;
+    text-shadow: 5px 25px 15px;
+}
+
+#menu{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 7%;
+}
+
+#menu .item{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+#starters, #desserts{
+    margin: 0;
+    background-color: rgb(239, 239, 204);
+    color: brown;
+}
+
+body > a{
+    color: red;
+    font-weight: bolder;
+}
+
+#list1, #list2{
+    margin: 0;
+}
+
+span{
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#list1 .child{
+    color: rgb(199, 108, 108);
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+}

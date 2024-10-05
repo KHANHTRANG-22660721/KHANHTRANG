@@ -1,0 +1,20 @@
+#a, #b, #c, #d, #e, #f{
+    display: flex;
+    margin-top: 3px;
+}
+
+.form1{
+    width: 75px;
+}
+
+.form2{
+    width: 153px;
+}
+
+#found{
+    width: 140px;
+}
+
+fieldset{
+    width: 640px;
+}

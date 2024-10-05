@@ -1,0 +1,97 @@
+body{
+    background-image: url(../img/background.jpg);
+    width: fit-content;
+    margin: 1%;
+    margin-bottom: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo img{
+    width: 78%;
+    height: auto;
+}
+
+#body{
+    display: flex;
+    margin-top: 10px;
+}
+
+#body #link{
+    width: 40%;
+    border-right: 3px solid green;
+}
+
+#body #link div{
+    margin-right: 16px;
+    box-sizing: border-box;
+    border-right: 4px solid grey;
+    border-bottom: 4px solid grey;
+    border-top: 4px solid rgb(235, 230, 230);
+    border-left: 4px solid rgb(235, 230, 230);  
+}
+
+#body #link div div{
+    width: 100%;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid rgb(208, 206, 206);
+    border-bottom: 4px solid rgb(172, 172, 172);
+}
+
+#body #link ul{
+    margin: 0;
+    padding: 0px 20px 15px 0px;
+    background-color: white;    
+}
+
+#body #link li{
+    list-style-type: none;
+    margin-bottom: 12px;
+}
+
+#body #link li a{
+    text-decoration: none;
+    color: purple;
+}
+
+#body #noidung{
+    margin-left: 16px;
+}
+
+#body #noidung .tittle1{
+    margin-top: 0;
+    background-color: rgb(4, 151, 4);
+    padding-left: 70px;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 10px;
+    width: 70%;
+}
+
+#body #noidung img{
+    float: right;
+    width: 25%;
+}
+
+#body #noidung p{
+    margin-bottom: 25px;
+}
+
+#body #noidung .tittle2{
+    clear: both;
+    width: 40%;
+    background-color: rgb(4, 151, 4);
+    padding-left: 15px;
+}
+
+#address{
+    display: flex;
+    margin-top: 20px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 6px double rgb(4, 151, 4);
+}

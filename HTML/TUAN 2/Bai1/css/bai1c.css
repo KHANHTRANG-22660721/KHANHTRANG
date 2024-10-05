@@ -1,0 +1,175 @@
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+#title{
+    text-align: center;
+    font-style: italic;
+    color: brown;
+    text-shadow: 8px 12px 5px;
+}
+
+#menu{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    background-color: rgb(236, 145, 145);
+    padding: 2px;
+}
+
+#menu th{
+    border-collapse: collapse;
+}
+
+#menu .item1{
+    width: 300px;
+    border-right: 2px solid blue;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 5px;
+}
+
+#menu img{
+    width: 20px;
+    height: 25px;
+}
+
+#menu .item2{
+    width: 170px;
+    border-right: 2px solid blue;
+}
+
+#menu .text{
+    width: 150px;
+}
+
+#menu .item2 a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+#menu .inp{
+    text-align: left;
+    padding-left: 60px;
+}
+
+#content{
+    display: flex;
+    margin-top: 10px;
+    height: fit-content;
+}
+
+#content #intro{
+    width: 15%;
+}
+
+#content #intro td{
+    background-color: rgb(236, 145, 145);
+    border-radius: 50px;
+    padding-left: 15px;
+    color: white;
+}
+
+#content #intro img{
+    width: 100%;
+    height: auto;
+    border-radius: 100px/60px;
+    box-shadow: 5px 15px 15px rgb(236, 145, 145);
+    margin-top: 15px;
+}
+
+#content #form{
+    width: 65%;
+}
+
+#content #form #starters,#content #form #desserts, #content #form #infor{
+    margin: auto 20%;
+    background-color: rgb(236, 145, 145);
+    color: brown;
+    letter-spacing: 25px;
+    padding-left: 20px;
+}
+
+#content #form table{
+    width: 100%;
+}
+
+#content #form .init{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+#content #form .button{
+    width: 70px;
+    height: 40px;
+}
+
+#content #form a{
+    color: red;
+}
+
+
+
+#content #more{
+    width: 20%;
+    height: 50%;
+    background-color: black;
+    color: white;
+}
+
+#content #more #events, #content #more h3, #content #more p{
+    margin: 0px;
+}
+
+#content #more > div{
+    margin: 25px;
+}
+
+
+
+#content #more img{
+    width: 100%;
+    height: auto;
+}
+
+#content #more div:first-child{
+    margin-bottom: 20px;
+}
+
+#content img{
+    width: 50px;
+    height: 50px;
+}
+
+body > a{
+    color: red;
+    font-weight: bolder;
+}
+
+#list1, #list2{
+    margin: 0;
+}
+
+ul span{
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#list1 .child{
+    color: rgb(199, 108, 108);
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#address{
+    text-align: center;
+    background-color: rgb(236, 145, 145);
+    margin: 0;
+    height: 50px;
+}

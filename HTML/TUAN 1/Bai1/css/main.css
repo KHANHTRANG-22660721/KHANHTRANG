@@ -1,0 +1,14 @@
+nav a{
+    display: inline;
+}
+
+ul em{
+    text-decoration: underline;
+    font-style: normal;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.notice{
+    font-size: small;
+}

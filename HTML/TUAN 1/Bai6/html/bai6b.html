@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/bai6b.css">
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <fieldset>
+        <legend>Your message:</legend>
+        <div id="a">
+            <label class="form1" for="to">To</label>
+            <input type="text" name="to" id="to" value="Example Cafe">
+        </div>
+        <div id="b">
+            <label class="form1" for="email">Your email</label>
+            <input type="text" name="email" id="email">
+        </div>
+        <div id="c">
+            <label class="form1" for="massage">Message</label>
+            <textarea name="massage" id="massage" cols="45" rows="8"></textarea>
+        </div>
+        <div id="d">
+            <label class="form1" for="">Attach File</label>
+            <input type="file" name="file" id="file" multiple>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>How you found us:</legend>
+        <div id="e">
+            <label class="form2" for="hear">How did you hear of us</label>
+            <select name="found" id="found">
+                <option value="gg">Google</option>
+                <option value="f">Facebook</option>
+                <option value="ig">Intagram</option>
+            </select>
+        </div>
+        <div id="f">
+            <label class="form2" for="letter">Newsletter</label>
+            <input type="checkbox" name="letter" id="letter">
+            <label for="letter">Ensure this box is checked if you would like to receive email updates</label>
+        </div>
+    </fieldset>
+    <input type="submit" name="send" id="send" value="Send message">
+</body>
+</html>
